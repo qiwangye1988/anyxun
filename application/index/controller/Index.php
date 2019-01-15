@@ -45,7 +45,7 @@ class Index extends Common
      * @datetime 2018-12-02T11:11:49+0800
      */
     public function Index()
-    {
+    { 
         // 首页轮播
         $this->assign('banner_list', BannerService::Banner());
 
